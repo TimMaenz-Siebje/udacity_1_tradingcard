@@ -1,0 +1,50 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  /* the Google font is loaded in two versions,
+  300 (normal/light) and 700 (bold) */
+  font-weight: 300;
+}
+
+img {
+  /*Removes tiny 'mystery space' below image, more details here:
+  https://stackoverflow.com/questions/17905827/why-does-my-image-have-space-underneath*/
+  vertical-align: bottom;
+}
+
+.hsize {
+  /*You only need to change width here in order to adjust
+  the horizontal size (i.e. hsize) of the whole card*/
+  width: 300px;
+}
+
+.list {
+  list-style: none outside none;
+  padding-left: 0;
+}
+
+.italic_text {
+  font-style: italic;
+}
+
+.bold_text {
+  font-weight: 700;
+}
+
+.card_box {
+  background: rgb(230, 230, 230);
+  border: 2px solid rgba(190, 190, 190, 1);
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px 0px rgba(190, 190, 190, 1);
+  box-sizing: content-box;
+  padding: 10px;
+}
+
+.text_box {
+  background: rgb(210, 210, 210);
+  border: 2px solid rgba(190, 190, 190, 1);
+  border-radius: 10px;
+  box-sizing: border-box;
+  line-height: 120%;
+  margin: 10px 0px 0px 0px;
+  padding: 0px 10px 0px 10px;
+}
